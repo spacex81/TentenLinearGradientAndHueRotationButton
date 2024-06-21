@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C888CEBE2C25707D007920AD /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CEBD2C25707D007920AD /* AppApp.swift */; };
-		C888CEC02C25707D007920AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CEBF2C25707D007920AD /* ContentView.swift */; };
-		C888CEC22C25707E007920AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CEC12C25707E007920AD /* Assets.xcassets */; };
-		C888CEC52C25707E007920AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CEC42C25707E007920AD /* Preview Assets.xcassets */; };
+		C888CF742C257C42007920AD /* LinearGradientAndHueRotationButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CF732C257C42007920AD /* LinearGradientAndHueRotationButtonApp.swift */; };
+		C888CF762C257C42007920AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888CF752C257C42007920AD /* ContentView.swift */; };
+		C888CF782C257C44007920AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CF772C257C44007920AD /* Assets.xcassets */; };
+		C888CF7B2C257C44007920AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888CF7A2C257C44007920AD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C888CEBA2C25707D007920AD /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C888CEBD2C25707D007920AD /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
-		C888CEBF2C25707D007920AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C888CEC12C25707E007920AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C888CEC42C25707E007920AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C888CF702C257C42007920AD /* LinearGradientAndHueRotationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearGradientAndHueRotationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888CF732C257C42007920AD /* LinearGradientAndHueRotationButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientAndHueRotationButtonApp.swift; sourceTree = "<group>"; };
+		C888CF752C257C42007920AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C888CF772C257C44007920AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C888CF7A2C257C44007920AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C888CEB72C25707D007920AD /* Frameworks */ = {
+		C888CF6D2C257C42007920AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C888CEB12C25707D007920AD = {
+		C888CF672C257C42007920AD = {
 			isa = PBXGroup;
 			children = (
-				C888CEBC2C25707D007920AD /* App */,
-				C888CEBB2C25707D007920AD /* Products */,
+				C888CF722C257C42007920AD /* LinearGradientAndHueRotationButton */,
+				C888CF712C257C42007920AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C888CEBB2C25707D007920AD /* Products */ = {
+		C888CF712C257C42007920AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEBA2C25707D007920AD /* App.app */,
+				C888CF702C257C42007920AD /* LinearGradientAndHueRotationButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C888CEBC2C25707D007920AD /* App */ = {
+		C888CF722C257C42007920AD /* LinearGradientAndHueRotationButton */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEBD2C25707D007920AD /* AppApp.swift */,
-				C888CEBF2C25707D007920AD /* ContentView.swift */,
-				C888CEC12C25707E007920AD /* Assets.xcassets */,
-				C888CEC32C25707E007920AD /* Preview Content */,
+				C888CF732C257C42007920AD /* LinearGradientAndHueRotationButtonApp.swift */,
+				C888CF752C257C42007920AD /* ContentView.swift */,
+				C888CF772C257C44007920AD /* Assets.xcassets */,
+				C888CF792C257C44007920AD /* Preview Content */,
 			);
-			path = App;
+			path = LinearGradientAndHueRotationButton;
 			sourceTree = "<group>";
 		};
-		C888CEC32C25707E007920AD /* Preview Content */ = {
+		C888CF792C257C44007920AD /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C888CEC42C25707E007920AD /* Preview Assets.xcassets */,
+				C888CF7A2C257C44007920AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C888CEB92C25707D007920AD /* App */ = {
+		C888CF6F2C257C42007920AD /* LinearGradientAndHueRotationButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C888CEC82C25707E007920AD /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = C888CF7E2C257C44007920AD /* Build configuration list for PBXNativeTarget "LinearGradientAndHueRotationButton" */;
 			buildPhases = (
-				C888CEB62C25707D007920AD /* Sources */,
-				C888CEB72C25707D007920AD /* Frameworks */,
-				C888CEB82C25707D007920AD /* Resources */,
+				C888CF6C2C257C42007920AD /* Sources */,
+				C888CF6D2C257C42007920AD /* Frameworks */,
+				C888CF6E2C257C42007920AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = App;
-			productName = App;
-			productReference = C888CEBA2C25707D007920AD /* App.app */;
+			name = LinearGradientAndHueRotationButton;
+			productName = LinearGradientAndHueRotationButton;
+			productReference = C888CF702C257C42007920AD /* LinearGradientAndHueRotationButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C888CEB22C25707D007920AD /* Project object */ = {
+		C888CF682C257C42007920AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					C888CEB92C25707D007920AD = {
+					C888CF6F2C257C42007920AD = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = C888CEB52C25707D007920AD /* Build configuration list for PBXProject "App" */;
+			buildConfigurationList = C888CF6B2C257C42007920AD /* Build configuration list for PBXProject "LinearGradientAndHueRotationButton" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C888CEB12C25707D007920AD;
-			productRefGroup = C888CEBB2C25707D007920AD /* Products */;
+			mainGroup = C888CF672C257C42007920AD;
+			productRefGroup = C888CF712C257C42007920AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C888CEB92C25707D007920AD /* App */,
+				C888CF6F2C257C42007920AD /* LinearGradientAndHueRotationButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C888CEB82C25707D007920AD /* Resources */ = {
+		C888CF6E2C257C42007920AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C888CEC52C25707E007920AD /* Preview Assets.xcassets in Resources */,
-				C888CEC22C25707E007920AD /* Assets.xcassets in Resources */,
+				C888CF7B2C257C44007920AD /* Preview Assets.xcassets in Resources */,
+				C888CF782C257C44007920AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C888CEB62C25707D007920AD /* Sources */ = {
+		C888CF6C2C257C42007920AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C888CEC02C25707D007920AD /* ContentView.swift in Sources */,
-				C888CEBE2C25707D007920AD /* AppApp.swift in Sources */,
+				C888CF762C257C42007920AD /* ContentView.swift in Sources */,
+				C888CF742C257C42007920AD /* LinearGradientAndHueRotationButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C888CEC62C25707E007920AD /* Debug */ = {
+		C888CF7C2C257C44007920AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		C888CEC72C25707E007920AD /* Release */ = {
+		C888CF7D2C257C44007920AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +264,14 @@
 			};
 			name = Release;
 		};
-		C888CEC92C25707E007920AD /* Debug */ = {
+		C888CF7F2C257C44007920AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LinearGradientAndHueRotationButton/Preview Content\"";
 				DEVELOPMENT_TEAM = GHJU9V8GHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.App;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.LinearGradientAndHueRotationButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		C888CECA2C25707E007920AD /* Release */ = {
+		C888CF802C257C44007920AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LinearGradientAndHueRotationButton/Preview Content\"";
 				DEVELOPMENT_TEAM = GHJU9V8GHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.App;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.komaki.LinearGradientAndHueRotationButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C888CEB52C25707D007920AD /* Build configuration list for PBXProject "App" */ = {
+		C888CF6B2C257C42007920AD /* Build configuration list for PBXProject "LinearGradientAndHueRotationButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C888CEC62C25707E007920AD /* Debug */,
-				C888CEC72C25707E007920AD /* Release */,
+				C888CF7C2C257C44007920AD /* Debug */,
+				C888CF7D2C257C44007920AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C888CEC82C25707E007920AD /* Build configuration list for PBXNativeTarget "App" */ = {
+		C888CF7E2C257C44007920AD /* Build configuration list for PBXNativeTarget "LinearGradientAndHueRotationButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C888CEC92C25707E007920AD /* Debug */,
-				C888CECA2C25707E007920AD /* Release */,
+				C888CF7F2C257C44007920AD /* Debug */,
+				C888CF802C257C44007920AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C888CEB22C25707D007920AD /* Project object */;
+	rootObject = C888CF682C257C42007920AD /* Project object */;
 }
